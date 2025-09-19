@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mozi>
+    <film id="txn_nxm_2jb" mufaj="horror">
+        <rendezo id="nzk_4xm_2jb" nev="alex" />
+        <szinesz id="u5g_4xm_2jb" nev="Madison_Ivy" />
+        <szinesz id="a">
+            <gyerekszinesz />
+            <musicalszinesz />
+            <szinkronszinesz />
+        </szinesz>
+        <iro id="trv_4xm_2jb" />
+    </film>
+
+    <film id="xyz_789" mufaj="drama">
+        <rendezo id="rnd_001" nev="John_Doe" />
+        <rendezo id="rnd_002" nev="Jane_Smith" />
+
+        <iro id="iro_001" nev="Mark_Twain" />
+        <iro id="iro_002" nev="Emily_Bronte" />
+    </film>
+</mozi>
