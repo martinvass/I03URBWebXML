@@ -1,0 +1,63 @@
+<!DOCTYPE VM_kurzusfelvetel SYSTEM "VM_kurzusfelvetel.dtd">
+
+<?xml version="1.0" encoding="UTF-8">
+
+    <VM_kurzusfelvetel tanev="2025/2026" egyetem="ME">
+
+        <hallgato id="I03URB.ME">
+
+            <nev>Vass Martin</nev>
+            <szulev>2004.01.05</szulev>
+            <szak evf="5">Programtervező Informatika Bsc</szak>
+
+        </hallgato>
+
+        <kurzusok>
+
+            <kurzus id="GEIAL333-B" nyelv="angol">
+
+                <kurzusnev>Webalkalmazás fejlesztés-Java</kurzusnev>
+                <kredit>5</kredit>
+                <hely>In 103</hely>
+                <idopont>Csütörtök 8:00-09:30</idopont>
+                <oktato>Dr. Barabás Péter</oktato>
+                <oraado>Tóth Bence</oraado>
+
+            </kurzus>
+
+            <kurzus id="GEIAL334-B">
+
+                <kurzusnev>Adatkezelés XML-ben</kurzusnev>
+                <kredit>5</kredit>
+                <hely>In 101</hely>
+                <idopont>Szerda 10:00-12:00</idopont>
+                <oktato>Dr. Bednarik László</oktato>
+
+            </kurzus>
+
+            <kurzus id="GEIAL335-B">
+
+                <kurzusnev>Web Technológiák</kurzusnev>
+                <kredit>5</kredit>
+                <hely>In 103</hely>
+                <idopont>Kedd 18:00-20:00</idopont>
+                <oktato>Agárdi Anita</oktato>
+
+            </kurzus>
+
+            <kurzus id="GEIAL322-B" jovahagyas="igen">
+
+                <kurzusnev>Adatbázisrendszerek I.</kurzusnev>
+                <kredit>5</kredit>
+                <hely>In 101</hely>
+                <idopont>Kedd 8:00-09:30</idopont>
+                <oktato>Dr. Kovács László</oktato>
+
+            </kurzus>
+
+
+        </kurzusok>
+
+    </VM_kurzusfelvetel>
+
+</xml>
