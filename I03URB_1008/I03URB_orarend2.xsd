@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- ===== Saját egyszerű típusok ===== -->
+    <xs:simpleType name="oraTipusType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="eloadas"/>
+            <xs:enumeration value="gyakorlat"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="napType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="hétfő"/>
+            <xs:enumeration value="kedd"/>
+            <xs:enumeration value="szerda"/>
+            <xs:enumeration value="csütörtök"/>
+            <xs:enumeration value="péntek"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="oraFormatType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-2]?[0-9]:[0-5][0-9]"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- ===== Komplex típusok ===== -->
+
+    <xs:complexType name="idopontType">
+        <xs:sequence>
+            <xs:element name="nap">
+                <xs:complexType>
+                    <xs:attribute name="napn" type="napType" use="required"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="tol">
+                <xs:complexType>
+                    <xs:attribute name="tolt" type="oraFormatType" use="required"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="ig">
+                <xs:complexType>
+                    <xs:attribute name="igt" type="oraFormatType" use="required"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="oraType">
+        <xs:sequence>
+            <xs:element name="targy">
+                <xs:complexType>
+                    <xs:attribute name="nev" type="xs:string" use="required"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="idopont" type="idopontType"/>
+            <xs:element name="helyszin">
+                <xs:complexType>
+                    <xs:attribute name="hol" type="xs:string" use="required"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="oktato">
+                <xs:complexType>
+                    <xs:attribute name="neve" type="xs:string" use="required"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="szak">
+                <xs:complexType>
+                    <xs:attribute name="sznev" type="xs:string" use="required"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+        <xs:attribute name="tipus" type="oraTipusType" use="required"/>
+    </xs:complexType>
+
+    <!-- ===== Gyökérelem ===== -->
+    <xs:element name="I03URB_orarend">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ora" type="oraType" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
