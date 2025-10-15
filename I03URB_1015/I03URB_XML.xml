@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vendeglatas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="I03URB_XMLSchema.xsd">
+
+	<!--Étterem-->
+    <etterem ekod="e1">
+        <nev>Trófea</nev>
+        <cim>
+            <varos>Budapest</varos>
+            <utca>Visegradi</utca>
+            <hazszam>13</hazszam>
+        </cim>
+        <csillag>4</csillag>
+    </etterem>
+
+    <etterem ekod="e2">
+        <nev>Paulaner</nev>
+        <cim>
+            <varos>Budapest</varos>
+            <utca>Pesti</utca>
+            <hazszam>08</hazszam>
+        </cim>
+        <csillag>5</csillag>
+    </etterem>
+
+    <etterem ekod="e3">
+        <nev>Creppy</nev>
+        <cim>
+            <varos>Miskolc</varos>
+            <utca>Kossuth</utca>
+            <hazszam>37</hazszam>
+        </cim>
+        <csillag>5</csillag>
+    </etterem>
+
+    <!--Főszakáscsok-->
+    <foszakacs fkod="f1" e_f="e1">
+        <nev>Havas Péter</nev>
+        <eletkor>34</eletkor>
+        <vegzettseg>Szakközépiskola</vegzettseg>
+        <vegzettseg>Institute of Paul Boscue</vegzettseg>
+    </foszakacs>
+
+    <foszakacs fkod="f2" e_f="e2">
+        <nev>Nagy Csilla</nev>
+        <eletkor>27</eletkor>
+        <vegzettseg>Institute of Cooking</vegzettseg>
+    </foszakacs>
+
+    <foszakacs fkod="f3" e_f="e3">
+        <nev>Kiss Anna</nev>
+        <eletkor>30</eletkor>
+        <vegzettseg>Egyetem</vegzettseg>
+    </foszakacs>
+
+    <!--Szakácsok-->
+    <szakacs szkod="sz1" e_sz="e1">
+        <nev>Káb Elek</nev>
+        <reszleg>Saucire</reszleg>
+        <vegzettseg>Szakközépiskola</vegzettseg>
+        <vegzettseg>Le Cordon Bleu</vegzettseg>
+        <vegzettseg>Institut Paul Boscue</vegzettseg>
+    </szakacs>
+
+    <szakacs szkod="sz2" e_sz="e2">
+        <nev>Kiss Pista</nev>
+        <reszleg>Gourmet</reszleg>
+        <vegzettseg>Szakközépiskola</vegzettseg>
+    </szakacs>
+
+    <szakacs szkod="sz3" e_sz="e3">
+        <nev>Nagy Bence</nev>
+        <reszleg>Saucire</reszleg>
+        <vegzettseg>Le Cordon Bleu</vegzettseg>
+        <vegzettseg>Institut Paul Boscue</vegzettseg>
+    </szakacs>
+
+    <!--Gyakornok-->
+    <gyakornok gykod="gy1" e_gy="e1">
+        <nev>Bordás Milán</nev>
+        <gyakorlat>
+            <kezdete>2021.08.20</kezdete>
+            <idotartama>2 hónap</idotartama>
+        </gyakorlat>
+        <muszak>Délelőtt</muszak>
+        <muszak>Este</muszak>
+    </gyakornok>
+
+    <gyakornok gykod="gy2" e_gy="e2">
+        <nev>Vicc Elek</nev>
+        <gyakorlat>
+            <kezdete>2020.09.20</kezdete>
+            <idotartama>4 hónap</idotartama>
+        </gyakorlat>
+        <muszak>Este</muszak>
+    </gyakornok>
+    </gyakornok>
+
+    <!--Vendég-->
+    <vendeg vkod="v1">
+        <nev>Fekete Péter</nev>
+        <eletkor>21</eletkor>
+        <cim>
+            <varos>Miskolc</varos>
+            <utca>Márton</utca>
+            <hazszam>17</hazszam>
+        </cim>
+    </vendeg>
+
+    <vendeg vkod="v2">
+        <nev>Nagy Elemér</nev>
+        <eletkor>19</eletkor>
+        <cim>
+            <varos>Miskolc</varos>
+            <utca>Kossuth</utca>
+            <hazszam>08</hazszam>
+        </cim>
+    </vendeg>
+
+    <!--Rendelés-->
+    <rendeles e_v_e="e1" e_v_v="v1">
+        <osszeg>9000</osszeg>
+        <etel>Steak</etel>
+    </rendeles>
+
+    <rendeles e_v_e="e3" e_v_v="v2">
+        <osszeg>5000</osszeg>
+        <etel>Ceasar saláta</etel>
+    </rendeles>
+
+    <rendeles e_v_e="e2" e_v_v="v1">
+        <osszeg>8000</osszeg>
+        <etel>Curry</etel>
+    </rendeles>
+
+    <rendeles e_v_e="e2" e_v_v="v2">
+        <osszeg>21000</osszeg>
+        <etel>Steak és kaviár</etel>
+    </rendeles>
+
+</vendeglatas>

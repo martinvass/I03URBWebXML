@@ -44,7 +44,7 @@
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:element name="DJ7PNE_orarend">
+    <xs:element name="I03URB_orarend">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="ora" minOccurs="1" maxOccurs="unbounded">

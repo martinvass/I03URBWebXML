@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Vendéglátás>
+
+    <Étterem Ekód="E1">
+        <Név>Aranykanál Étterem</Név>
+        <Életkor>12</Életkor>
+        <Végzettség>Középfokú</Végzettség>
+        <Cím>
+            <Város>Miskolc</Város>
+            <Utca>Petőfi utca</Utca>
+            <Házszám>12</Házszám>
+        </Cím>
+    </Étterem>
+
+    <Főszakács Fkód="F1" Ekód="E1">
+        <Név>Kovács Béla</Név>
+        <Életkor>45</Életkor>
+        <Végzettség>Felsőfokú</Végzettség>
+    </Főszakács>
+
+    <Szakács Szkód="S1" Ekód="E1">
+        <Név>Nagy Péter</Név>
+        <Részleg>Levespult</Részleg>
+        <Végzettség>Középfokú</Végzettség>
+    </Szakács>
+
+    <Gyakornok GyKód="G1" Ekód="E1">
+        <Név>Tóth Anna</Név>
+        <Gyakorlat>Konyhai kisegítő</Gyakorlat>
+        <Kezdete>2025-06-01</Kezdete>
+        <Időtartama>3 hónap</Időtartama>
+        <Műszak>Délután</Műszak>
+    </Gyakornok>
+
+    <Vendég Vkód="V1">
+        <Név>Szabó Tamás</Név>
+        <Életkor>32</Életkor>
+        <Cím>
+            <Város>Miskolc</Város>
+            <Utca>Bajcsy-Zsilinszky út</Utca>
+            <Házszám>5</Házszám>
+        </Cím>
+    </Vendég>
+
+    <Rendelés Rkód="R1" Vkód="V1" Ekód="E1">
+        <Étel>Marhapörkölt galuskával</Étel>
+        <Összeg>4200</Összeg>
+    </Rendelés>
+
+</Vendéglátás>
