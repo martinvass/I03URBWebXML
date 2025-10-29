@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<I03URB_orarend>
+    <ora id="1" tipus="eloadas">
+        <targy nev="Web-Tech 1"/>
+        <idopont>
+            <nap napn="hétfő"/>
+            <tol tolt="10:00"/>
+            <ig igt="12:00"/>
+        </idopont>
+        <helyszin hol="A1 V. ea."/>
+        <oktato neve="Agárdi Anita"/>
+        <szak sznev="progterv"/>
+    </ora>
+    <ora id="2" tipus="gyakorlat">
+        <targy nev="Web-Tech 1"/>
+        <idopont>
+            <nap napn="hétfő"/>
+            <tol tolt="14:00"/>
+            <ig igt="16:00"/>
+        </idopont>
+        <helyszin hol="Inf 101"/>
+        <oktato neve="Agárdi Anita"/>
+        <szak sznev="progterv"/>
+    </ora>
+    <ora id="3" tipus="eloadas">
+        <targy nev="Mesterséges Intelligencia"/>
+        <idopont>
+            <nap napn="kedd"/>
+            <tol tolt="10:00"/>
+            <ig igt="12:00"/>
+        </idopont>
+        <helyszin hol="A1 32."/>
+        <oktato neve="Dr Kunné Tamási Judit"/>
+        <szak sznev="progterv"/>
+    </ora>
+    <ora id="4" tipus="gyakorlat">
+        <targy nev="Mesterséges Intelligencia"/>
+        <idopont>
+            <nap napn="kedd"/>
+            <tol tolt="12:00"/>
+            <ig igt="14:00"/>
+        </idopont>
+        <helyszin hol="A1 32."/>
+        <oktato neve="Fazekas Levente"/>
+        <szak sznev="progterv"/>
+    </ora>
+    <ora id="5" tipus="eloadas">
+        <targy nev="Algoritmusok es vizsgalatuk"/>
+        <idopont>
+            <nap napn="kedd"/>
+            <tol tolt="14:00"/>
+            <ig igt="16:00"/>
+        </idopont>
+        <helyszin hol="A1 32."/>
+        <oktato neve="Dr Kunné Tamási Judit"/>
+        <szak sznev="progterv"/>
+    </ora>
+    <ora id="6" tipus="gyakorlat">
+        <targy nev="Algoritmusok es vizsgalatuk"/>
+        <idopont>
+            <nap napn="kedd"/>
+            <tol tolt="16:00"/>
+            <ig igt="18:00"/>
+        </idopont>
+        <helyszin hol="32"/>
+        <oktato neve="Dr. Bednarik László"/>
+        <szak sznev="progterv"/>
+    </ora>
+    <ora id="7" tipus="eloadas">
+        <targy nev="Webes adatkezelő környezetek"/>
+        <idopont>
+            <nap napn="szerda"/>
+            <tol tolt="8:00"/>
+            <ig igt="10:00"/>
+        </idopont>
+        <helyszin hol="A1 310"/>
+        <oktato neve="Dr. Kovács László"/>
+        <szak sznev="progterv"/>
+    </ora>
+    <ora id="8" tipus="gyakorlat">
+        <targy nev="Webes adatkezelő környezetek"/>
+        <idopont>
+            <nap napn="szerda"/>
+            <tol tolt="10:00"/>
+            <ig igt="12:00"/>
+        </idopont>
+        <helyszin hol="Inf 103"/>
+        <oktato neve="Dr. Bednarik László"/>
+        <szak sznev="progterv"/>
+    </ora>
+    <ora id="9" tipus="eloadas">
+        <targy nev="Vállalati információs rendszerek fejlesztése"/>
+        <idopont>
+            <nap napn="szerda"/>
+            <tol tolt="14:00"/>
+            <ig igt="16:00"/>
+        </idopont>
+        <helyszin hol="Inf 103"/>
+        <oktato neve="Dr. Sasvári Péter"/>
+        <szak sznev="progterv"/>
+    </ora>
+    <ora id="10" tipus="gyakorlat">
+        <targy nev="Vállalati információs rendszerek fejlesztése"/>
+        <idopont>
+            <nap napn="szerda"/>
+            <tol tolt="18:00"/>
+            <ig igt="20:00"/>
+        </idopont>
+        <helyszin hol="32"/>
+        <oktato neve="Dr. Sasvári Péter"/>
+        <szak sznev="progterv"/>
+    </ora>
+</I03URB_orarend>
