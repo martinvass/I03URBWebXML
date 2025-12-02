@@ -1,0 +1,127 @@
+{
+  "I03URB_orarend": {
+    "ora": [
+      {
+        "targy": "Web Technologiak 1",
+        "idopont": {
+          "nap": "hetfo",
+          "tol": 10,
+          "ig": 12
+        },
+        "helyszin": "A1 magasfsz V.ea.",
+        "oktato": "Agradi Anita",
+        "szak": "Programtervezo informatikus"
+      },
+      {
+        "targy": "Muszaki szaknyelv 1",
+        "idopont": {
+          "nap": "Hetfo",
+          "tol": 12,
+          "ig": 14
+        },
+        "helyszin": "A1/316 III.ea.",
+        "oktato": "Pataki Janosne",
+        "szak": "Programtervezo informatikus"
+      },
+      {
+        "targy": "Mesterseges Intelligencia alapjai",
+        "idopont": {
+          "nap": "Kedd",
+          "tol": 10,
+          "ig": 12
+        },
+        "helyszin": "A1 XXXII.ea.",
+        "oktato": "Kunne Dr. Tamas Judit",
+        "szak": "Programtervezo informatikus"
+      },
+      {
+        "targy": "Mesterseges Intelligencia alapjai",
+        "idopont": {
+          "nap": "Kedd",
+          "tol": 12,
+          "ig": 14
+        },
+        "helyszin": "A1 XXXII.ea.",
+        "oktato": "Fazekas Levente",
+        "szak": "Programtervezo informatikus"
+      },
+      {
+        "targy": "Algoritmusok es vizsgalatuk",
+        "idopont": {
+          "nap": "Kedd",
+          "tol": 14,
+          "ig": 16
+        },
+        "helyszin": "A1/305 XXX.ea.",
+        "oktato": "Dr. Hazy Attila",
+        "szak": "Programtervezo informatikus"
+      },
+      {
+        "targy": "Algoritmusok es vizsgalatuk",
+        "idopont": {
+          "nap": "Kedd",
+          "tol": 14,
+          "ig": 16
+        },
+        "helyszin": "A1/305 XXX.ea.",
+        "oktato": "Dr. Hazy Attila",
+        "szak": "Programtervezo informatikus"
+      },
+      {
+        "targy": "Webes adatkezelo kornyezetek",
+        "idopont": {
+          "nap": "Szerda",
+          "tol": 8,
+          "ig": 10
+        },
+        "helyszin": "A1/310",
+        "oktato": "Dr. Kovacs Laszlo Jozsef",
+        "szak": "Programtervezo informatikus"
+      },
+      {
+        "targy": "Webes adatkezelo kornyezetek",
+        "idopont": {
+          "nap": "Szerda",
+          "tol": 10,
+          "ig": 12
+        },
+        "helyszin": "Inf103",
+        "oktato": "Dr. Bednarik Laszlo",
+        "szak": "Programtervezo informatikus"
+      },
+      {
+        "targy": "Web Technologiak",
+        "idopont": {
+          "nap": "Szerda",
+          "tol": 12,
+          "ig": 14
+        },
+        "helyszin": "Inf101",
+        "oktato": "Dr. Bednarik Laszlo",
+        "szak": "Programtervezo informatikus"
+      },
+      {
+        "targy": "Vallalati informacios rendszerek",
+        "idopont": {
+          "nap": "Szerda",
+          "tol": 14,
+          "ig": 16
+        },
+        "helyszin": "Inf101",
+        "oktato": "Dr. Sasvari Peter",
+        "szak": "Programtervezo informatikus"
+      },
+      {
+        "targy": "Vallalati informacios rendszerek",
+        "idopont": {
+          "nap": "Szerda",
+          "tol": 18,
+          "ig": 20
+        },
+        "helyszin": "Inf101",
+        "oktato": "Dr. Sasvari Peter",
+        "szak": "Programtervezo informatikus"
+      }
+    ]
+  }
+}

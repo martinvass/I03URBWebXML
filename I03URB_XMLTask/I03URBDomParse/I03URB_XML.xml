@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Kavezolanc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="Neptunkod_XMLSchema.xsd">
+
+    <!-- Beszállítók -->
+    <Beszallitok>
+        <!-- 1. beszállító -->
+        <Beszallito id="B001">
+            <Nev>CoffeeBeans Kft.</Nev>
+            <Telephely>Budapest</Telephely>
+            <Telefonszam>+36-30-111-2222</Telefonszam>
+            <Email>info@coffeebeans.hu</Email>
+        </Beszallito>
+
+        <!-- 2. beszállító -->
+        <Beszallito id="B002">
+            <Nev>SweetBake Bt.</Nev>
+            <Telephely>Miskolc</Telephely>
+            <Telefonszam>+36-20-333-4444</Telefonszam>
+            <Email>rendeles@sweetbake.hu</Email>
+        </Beszallito>
+    </Beszallitok>
+
+    <!-- Alapanyagok -->
+    <Alapanyagok>
+        <!-- 1. alapanyag -->
+        <Alapanyag id="A001" beszallitoRef="B001">
+            <Nev>Arabica kávébab</Nev>
+            <Egysegar>6500</Egysegar>
+            <KeszletMennyiseg mertekegyseg="g">5000</KeszletMennyiseg>
+            <Allergenek>
+                <Allergen>NINCS</Allergen>
+            </Allergenek>
+        </Alapanyag>
+
+        <!-- 2. alapanyag -->
+        <Alapanyag id="A002" beszallitoRef="B001">
+            <Nev>Tej 2.8%</Nev>
+            <Egysegar>420</Egysegar>
+            <KeszletMennyiseg mertekegyseg="ml">20000</KeszletMennyiseg>
+            <Allergenek>
+                <Allergen>TEJ</Allergen>
+            </Allergenek>
+        </Alapanyag>
+
+        <!-- 3. alapanyag -->
+        <Alapanyag id="A003" beszallitoRef="B002">
+            <Nev>Csokoládé</Nev>
+            <Egysegar>1800</Egysegar>
+            <KeszletMennyiseg mertekegyseg="g">3000</KeszletMennyiseg>
+            <Allergenek>
+                <Allergen>SOJA</Allergen>
+                <Allergen>TEJ</Allergen>
+            </Allergenek>
+        </Alapanyag>
+    </Alapanyagok>
+
+    <!-- Termékek -->
+    <Termekek>
+        <!-- 1. termék -->
+        <Termek id="T001">
+            <Nev>Cappuccino</Nev>
+            <Kategoria>KAVE</Kategoria>
+            <Ar>890</Ar>
+            <Meret>M</Meret>
+            <FelhasznaltAlapanyagok>
+                <Felhasznal alapanyagRef="A001">
+                    <Mennyiseg mertekegyseg="g">10</Mennyiseg>
+                </Felhasznal>
+                <Felhasznal alapanyagRef="A002">
+                    <Mennyiseg mertekegyseg="ml">200</Mennyiseg>
+                </Felhasznal>
+            </FelhasznaltAlapanyagok>
+        </Termek>
+
+        <!-- 2. termék -->
+        <Termek id="T002">
+            <Nev>Brownie szelet</Nev>
+            <Kategoria>SUTEMENY</Kategoria>
+            <Ar>750</Ar>
+            <Meret>NINCS</Meret>
+            <FelhasznaltAlapanyagok>
+                <Felhasznal alapanyagRef="A003">
+                    <Mennyiseg mertekegyseg="g">80</Mennyiseg>
+                </Felhasznal>
+            </FelhasznaltAlapanyagok>
+        </Termek>
+    </Termekek>
+
+    <!-- Üzletek -->
+    <Uzletek>
+        <!-- 1. üzlet -->
+        <Uzlet id="U001">
+            <Nev>Central Coffee</Nev>
+            <Cim>
+                <Varos>Budapest</Varos>
+                <Utca>Fo utca</Utca>
+                <Hazszam>5</Hazszam>
+            </Cim>
+            <Nyitvatartas>07:00-21:00</Nyitvatartas>
+
+            <Uzletvezeto vezetoRef="V001"/>
+
+            <Dolgozok>
+                <Dolgozo id="D001">
+                    <Nev>Kiss Anna</Nev>
+                    <Beosztas>BARISTA</Beosztas>
+                    <Fizetes>320000</Fizetes>
+                    <BelepesDatum>2023-06-01</BelepesDatum>
+                </Dolgozo>
+                <Dolgozo id="D002">
+                    <Nev>Nagy Peter</Nev>
+                    <Beosztas>PULTOS</Beosztas>
+                    <Fizetes>300000</Fizetes>
+                    <BelepesDatum>2024-02-15</BelepesDatum>
+                </Dolgozo>
+            </Dolgozok>
+
+            <Kinalat>
+                <KinalatElem termekRef="T001">
+                    <ElerhetoMennyiseg>120</ElerhetoMennyiseg>
+                    <AkciosAr>0</AkciosAr>
+                </KinalatElem>
+                <KinalatElem termekRef="T002">
+                    <ElerhetoMennyiseg>40</ElerhetoMennyiseg>
+                    <AkciosAr>690</AkciosAr>
+                </KinalatElem>
+            </Kinalat>
+        </Uzlet>
+
+        <!-- 2. üzlet -->
+        <Uzlet id="U002">
+            <Nev>Uni Cafe</Nev>
+            <Cim>
+                <Varos>Miskolc</Varos>
+                <Utca>Egyetemvaros</Utca>
+                <Hazszam>1</Hazszam>
+            </Cim>
+            <Nyitvatartas>08:00-20:00</Nyitvatartas>
+
+            <Uzletvezeto vezetoRef="V002"/>
+
+            <Dolgozok>
+                <Dolgozo id="D003">
+                    <Nev>Torok Dora</Nev>
+                    <Beosztas>VEZETOHELYETTES</Beosztas>
+                    <Fizetes>350000</Fizetes>
+                    <BelepesDatum>2022-09-10</BelepesDatum>
+                </Dolgozo>
+            </Dolgozok>
+
+            <Kinalat>
+                <KinalatElem termekRef="T001">
+                    <ElerhetoMennyiseg>70</ElerhetoMennyiseg>
+                    <AkciosAr>850</AkciosAr>
+                </KinalatElem>
+            </Kinalat>
+        </Uzlet>
+    </Uzletek>
+
+    <!-- Üzletvezetők -->
+    <Uzletvezetok>
+        <!-- 1. vezető -->
+        <Uzletvezeto id="V001" uzletRef="U001">
+            <Nev>Fekete Mark</Nev>
+            <Telefonszam>+36-70-555-6666</Telefonszam>
+            <Email>mark.fekete@centralcoffee.hu</Email>
+            <BelepesDatum>2021-01-10</BelepesDatum>
+        </Uzletvezeto>
+
+        <!-- 2. vezető -->
+        <Uzletvezeto id="V002" uzletRef="U002">
+            <Nev>Szabo Eszter</Nev>
+            <Telefonszam>+36-30-777-8888</Telefonszam>
+            <Email>eszter.szabo@unicafe.hu</Email>
+            <BelepesDatum>2022-03-01</BelepesDatum>
+        </Uzletvezeto>
+    </Uzletvezetok>
+
+</Kavezolanc>
