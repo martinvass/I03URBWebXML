@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Kavezolanc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-            xsi:noNamespaceSchemaLocation="Neptunkod_XMLSchema.xsd">
+            xsi:noNamespaceSchemaLocation="I03URB_XMLSchema.xsd">
 
     <!-- Beszállítók -->
     <Beszallitok>
@@ -28,9 +28,7 @@
             <Nev>Arabica kávébab</Nev>
             <Egysegar>6500</Egysegar>
             <KeszletMennyiseg mertekegyseg="g">5000</KeszletMennyiseg>
-            <Allergenek>
-                <Allergen>NINCS</Allergen>
-            </Allergenek>
+            <Allergen>NINCS</Allergen>
         </Alapanyag>
 
         <!-- 2. alapanyag -->
@@ -38,9 +36,7 @@
             <Nev>Tej 2.8%</Nev>
             <Egysegar>420</Egysegar>
             <KeszletMennyiseg mertekegyseg="ml">20000</KeszletMennyiseg>
-            <Allergenek>
-                <Allergen>TEJ</Allergen>
-            </Allergenek>
+            <Allergen>TEJ</Allergen>
         </Alapanyag>
 
         <!-- 3. alapanyag -->
@@ -48,10 +44,8 @@
             <Nev>Csokoládé</Nev>
             <Egysegar>1800</Egysegar>
             <KeszletMennyiseg mertekegyseg="g">3000</KeszletMennyiseg>
-            <Allergenek>
-                <Allergen>SOJA</Allergen>
-                <Allergen>TEJ</Allergen>
-            </Allergenek>
+            <Allergen>SOJA</Allergen>
+            <Allergen>TEJ</Allergen>
         </Alapanyag>
     </Alapanyagok>
 
@@ -79,11 +73,9 @@
             <Kategoria>SUTEMENY</Kategoria>
             <Ar>750</Ar>
             <Meret>NINCS</Meret>
-            <FelhasznaltAlapanyagok>
-                <Felhasznal alapanyagRef="A003">
-                    <Mennyiseg mertekegyseg="g">80</Mennyiseg>
-                </Felhasznal>
-            </FelhasznaltAlapanyagok>
+            <Felhasznal alapanyagRef="A003">
+                <Mennyiseg mertekegyseg="g">80</Mennyiseg>
+            </Felhasznal>
         </Termek>
     </Termekek>
 
